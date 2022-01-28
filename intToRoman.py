@@ -1,6 +1,3 @@
-from os import system
-system("cls")
-
 def intToRoman(num: int) -> str:
     r = ''
     numbers = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1]
@@ -14,8 +11,5 @@ def intToRoman(num: int) -> str:
             i += 1
     return r
 
-print(intToRoman(49))
-
-# C = 100
-# XC = 90
-# L = 100
+if __name__ == "__main__":
+    print(intToRoman(49))
